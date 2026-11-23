@@ -1,0 +1,8 @@
+--1
+SELECT * FROM prices ORDER BY price DESC LIMIT 5;
+--2
+SELECT * FROM prices ORDER BY created_at DESC LIMIT 10;
+--3
+SELECT * FROM prices ORDER BY price ASC LIMIT 10;
+--4
+SELECT * FROM prices ORDER BY price DESC OFFSET 20;
